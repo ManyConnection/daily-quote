@@ -55,6 +55,15 @@ export default function TabsLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="myquotes"
+        options={{
+          title: 'マイ名言',
+          tabBarIcon: ({ color }) => (
+            <Text style={[styles.icon, { color }]}>✍️</Text>
+          ),
+        }}
+      />
     </Tabs>
   );
 }
